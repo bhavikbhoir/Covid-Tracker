@@ -11,6 +11,7 @@ Know and track the COVID-19 pandemic.
 ## Tools
 1. AWS
 2. Google Analytics
+3. Firebase
 
 ## Live Version
 http://www.covid19-tracker.s3-website.ap-south-1.amazonaws.com/
