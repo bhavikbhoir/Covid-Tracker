@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corona Tracker | Know and track the COVID-19 pandemic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Corona Tracker | Know and track the COVID-19 pandemic">
+  <meta property="og:description" content="Learn about the current pandemic and know how it has affected the world.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="C:\Users\bhvkb\OneDrive\Desktop\logo.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<style>
+		body{
+			height: 100vh;
+			font-family: "gentona",Tahoma,sans-serif;
+			text-align: center;
+			background-color: rgba(255, 255, 255, 0.5);
+			color: black;
+		}
+		.header{
+			font-family: sans-serif;
+			line-height: 1em;
+			font-size: 20px;
+			color: red;
+			left: 0;
+			top: 0;
+			width: 100%;
+		    display: inline-block;
+		    text-align: left;
+		}
+		.theme button{
+			background: none;
+			border: none;
+		}
+		#main-content{
+			background-color: white;
+			border-radius: 25px;
+		}
+		.row{
+			margin: 10px 0;
+		}
+		#summary, #causes{
+			display: flex;
+			  -webkit-flex-wrap: wrap;
+			      -ms-flex-wrap: wrap;
+			          flex-wrap: wrap;
+			  -webkit-justify-content: space-around;
+			      -ms-flex-pack: distribute;
+			          justify-content: space-around;
+			  -webkit-box-align: center;
+			  -webkit-align-items: center;
+			      -ms-flex-align: center;
+			          align-items: center;
+			  -webkit-align-content: center;
+			      -ms-flex-line-pack: center;
+          align-content: center;
+		}
+		h2, h3, h4{
+			color: #226fb7;
+			font-weight: bold;
+		}
+		p{
+			margin-left: -0.8rem;
+		}
+		.footer{
+			font-size: 16px;
+			color: black;
+			font-weight: 500;
+			width: 100%;
+			margin: 1rem 0;
+		}
+		.footer a{
+			color: #226fb7;
+			text-decoration-line: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="header container">
+		<div class="row">
+			<div class="col-lg-9 col-md-9 col-sm-8 col-7">
+				<img id="logo" src="logo.png" alt="logo" height="60px"></img>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-8 col-5">
+				<div class="theme" style="font-size: 12px; font-weight: bold; color: black; text-align: right; opacity: 0.8">
+					<p style="margin: 0;">Change theme:</p>
+					<button id="redtheme">&#128308;</button>
+					<button id="bluetheme">&#128309;</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="container" id="main-content" >
+	  	<div class="row"style="margin: 0" height="100%">
+			<div class="col-lg-6 col-sm-12" id="summary" style="padding: 5px 20px; text-align: justify;">
+				The COVID-19 pandemic is a serious global health threat. COVID-19 is caused by a coronavirus called SARS-CoV-2. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.<br><br>
+				It was first identified in December 2019 in Wuhan, Hubei, China, and has resulted in an ongoing pandemic. The first confirmed case has been traced back to 17 November 2019 in Hubei.<br><br>Public health groups, including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, are monitoring the pandemic and posting updates on their websites. These groups have also issued recommendations for preventing and treating the illness.
+			</div>
+			<div class="col-lg-6 col-sm-12" id="summary" style="padding: 20px 0; text-align: left;">
+	    	<div class="flourish-embed flourish-chart" data-src="story/230085"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+	    	</div>
+  		</div>
+  		<div><h3>KNOW THE GLOBAL IMPACT</h3></div>
+	   	<div class="row">
+		    <div class="col-lg-12 col-sm-12">
+		    	<div class="flourish-embed flourish-map" data-src="story/225979"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+			</div>
+		</div>
+ 	<div><h3>HOW DOES IT SPREAD?</h3></div>
+ 	<div class="row" style="text-align: justify;">
+	    <div class="col-lg-6 col-sm-12" id="causes" >
+	    	<ul style="margin-left: -2rem">
+	    		<li>Between people who are in close contact with one another (within about 6 feet).</li>
+	    		<li>Through respiratory droplets produced when an infected person coughs, sneezes, or talks.</li>
+	    		<li>These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.</li>
+	    		<li>COVID-19 may be spread by people who are not showing symptoms.</li>
+	    	</ul>
+	    </div>
+        <div class="col-lg-6 col-sm-12" style="text-align: center;">
+        	<video src="C.mp4" width="80%" height="100%" autoplay loop>
+    	</div>
+	</div>
+
+	<div><h3>KNOW THE COVID-19 SYMPTOMS</h3></div>
+	<div class="row" style="text-align: justify;">
+		<div class="col-lg-6 col-sm-12">
+			<h4>The following symptoms may appear 2-14 days after exposure:</h4>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12" style="margin-left: -0.8rem">
+					<h6>Common signs and symptoms can include:</h6>
+					<ul>
+						<li>Fever</li>
+						<li>Cough</li>
+						<li>Shortness of Breath</li>
+					</ul>
+					<h6>Other symptoms can include:</h6>
+					<ul>
+						<li>Muscle aches</li>
+						<li>Chills</li>
+						<li>Sore throat</li>
+						<li>Runny Nose</li>
+						<li>Headache</li>
+						<li>Chest pain</li>
+						<li>Loss of taste or smell</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-sm-12">
+					<img src="2.png" alt="symptoms" width="100%" height="100%">
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-sm-12">
+			<h4 style="text-align: right;">Seek medical advice if:</h4>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12">
+					<ul style="margin-left: -2rem">
+						<li>You develop worsening symptoms like:
+							<ul>
+								<li>Trouble breathing</li>
+								<li>Persistent chest pain or pressure</li>
+								<li>Inability to stay awake</li>
+								<li>New confusion</li>
+								<li>Blue lips or face</li>
+							</ul>
+						</li>
+						<li>You have been in close contact with a person known to have COVID-19</li>
+						<li>You live in or have recently been in an on area with ongoing spread of COVID-19</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-sm-12">
+					<img src="DOCTORS.png" alt="medical advice" width="100%" height="100%">
+				</div>
+			</div>	
+		</div>
+	</div>	  
+  
+  <div><h3>STOP THE SPREAD</h3></div>
+  <div class="row" style="text-align: justify; ">
+    <div class="col-lg-6 col-sm-12">
+    	<h4>Wash your hands frequently</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="wash.png" alt="wash hands" width="100%" height="100%"></div>
+    	</div>	
+	</div>
+    <div class="col-lg-6 col-sm-12">
+    	<h4>Maintain physical distancing</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Maintain at least 2 meters (6 feet) distance between yourself and anyone who is coughing or sneezing.</p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="distance.png" alt="maintain distance" width="100%" height="100%"></div>
+    	</div>
+	</div>
+	</div>
+	<div class="row" style="text-align: justify;">
+    <div class="col-lg-6 col-sm-12">
+    	<h4>Avoid touching eyes, nose and mouth</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. </p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="3.png" alt="avoid touch" width="100%" height="100%"></div>
+    	</div>
+	</div>
+    <div class="col-lg-6 col-sm-12">
+    	<h4>Be a hero and wear a mask</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Wear a mask while going out whether you are sick or not.</p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="mask.png" alt="wear mask" width="100%" height="100%"></div>
+    	</div>
+	</div>
+	<div class="col-lg-6 col-sm-12">
+    	<h4>Sanitize your surrounding</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Disinfect surfaces like doorknobs, tables, and desks regularly.</p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="sanitize.png" alt="sanitize" width="100%" height="100%"></div>
+    	</div>
+	</div>
+	<div class="col-lg-6 col-sm-12">
+    	<h4>If you have s fever, cough and difficulty breathing, seek medical care early</h4>
+    	<div class="row">
+    		<div class="col-lg-6 col-sm-12"><p>Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.</p></div>
+    		<div class="col-lg-6 col-sm-12"><img src="4.png" alt="fever" width="100%" height="100%"></div>
+    	</div>
+	</div>
+
+   </div>
+   <h3>TESTED POSITIVE?</h3>
+	<div class="row">
+		<div class="col" style="padding: 0">	
+	    	<div class="row">
+	    		<div class="col-lg-4 col-sm-12"  style="text-align: justify;">
+	    			<h4 style="text-align: left;">Isolate yourself</h4>
+	    			<ul style="margin-left:-1rem;">
+	    				<li>As much as possible, stay in a specific room away from other people and use a separate bathroom if available.</li>
+	    				<li>Limit contact with pets and other animals. If possible, have a member of your household care for them. If you must care for an animal, wear a face covering and wash your hands before and after you interact with them.</li>
+	    			</ul>  
+	    		</p>
+	    	</div>
+	    		<div class="col-lg-4 col-sm-12"><img src="test.png" alt="tested positive" width="100%" height="100%"></div>
+	    		<div class="col-lg-4 col-sm-12"  style="text-align: justify;">
+	    		<h4 style="text-align: left;">Stop isolation when:</h4>
+				<ul style="margin-left:-1rem;">
+					<li>You’ve been fever-free for at least 24 hours without the use of fever-reducing medication AND</li>
+					<li>Your symptoms have gotten better, AND</li>
+					<li>At least 10 days have gone by since your symptoms first appeared.</li>
+				</ul>
+				</p>
+			</div>
+	    	</div>	
+		</div>
+		</div>
+	<div style="text-align: center;">
+		<div class="container">
+		<h3>"We should not give up and we should not allow the problem to defeat us"</h3>
+		<h5> - Dr. A.P.J Abdul Kalam</h5>		
+		</div>	
+	</div>
+	
+	<div class="footer">
+		<p>Created with care <span style="color: red">&hearts;</span> by <span><a href="https://www.linkedin.com/in/bhavikbhoir/">BB</a></span> & <span><a href="https://www.linkedin.com/in/kunal-gholap-b4a259125/">KG</a></span></p>
+	</div>
+	<script>
+        $('#redtheme').on('click', function() {
+	        $('body').css('background', 'rgba(255, 0, 0, 0.1');
+	        $('h2, h3, h4').css('color','#ff5757');
+	        $('#logo').attr("src", "redlogo.png");
+	        $('a').css('color','#ff5757');
+	        localStorage.setItem('theme', 'red');
+        });
+        $('#bluetheme').on('click', function() { 
+	        $('body').css('background', 'white');
+	        $('h2, h3, h4').css('color','#226fb7');
+	        $('#logo').attr("src", "logo.png");
+	        $('a').css('color','#226fb7');
+	        localStorage.setItem('theme', 'blue');
+        })  
+    </script>  
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD-4qPVyxn2RCPmtF4ZdGqWWh80roLufCE",
+    authDomain: "covid-tracker-f870e.firebaseapp.com",
+    databaseURL: "https://covid-tracker-f870e.firebaseio.com",
+    projectId: "covid-tracker-f870e",
+    storageBucket: "covid-tracker-f870e.appspot.com",
+    messagingSenderId: "15317103736",
+    appId: "1:15317103736:web:6e112b6ce2d968c871e98d",
+    measurementId: "G-S14HQEVGNC"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>
