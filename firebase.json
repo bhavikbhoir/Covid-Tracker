@@ -1,0 +1,34 @@
+{
+  "hosting": {
+    "target": "main",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      ".gitignore",
+      ".git/**",
+      ".firebase",
+      "README.md",
+      "assets/README.md",
+      "assets/1.png",
+      "assets/spread.png",
+      "assets/Update1.png",
+      "assets/Update2.png",
+      "js/firebase-config.example.js"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(png|jpg|gif|mp4)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=604800" }
+        ]
+      },
+      {
+        "source": "**/*.@(css|js)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=86400" }
+        ]
+      }
+    ]
+  }
+}

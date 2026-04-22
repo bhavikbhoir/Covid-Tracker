@@ -1,0 +1,96 @@
+/* Base */
+body {
+  min-height: 100vh;
+  font-family: "gentona", Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #212529;
+}
+
+/* Header */
+.header {
+  font-family: sans-serif;
+  line-height: 1em;
+  font-size: 20px;
+  color: red;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+.theme button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+/* Main content */
+#main-content {
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h2, h3, h4 {
+  color: #226fb7;
+  font-weight: bold;
+}
+
+p {
+  margin-left: -0.8rem;
+}
+
+/* Skip nav */
+.skip-nav {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-nav:focus {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
+  background: #226fb7;
+  color: #fff;
+  z-index: 9999;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  font-size: 16px;
+  color: #212529;
+  font-weight: 500;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.footer a {
+  color: #226fb7;
+  text-decoration: none;
+}
+
+/* Responsive images */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
