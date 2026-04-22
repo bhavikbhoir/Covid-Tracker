@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "covid-tracker-f870e"
+  },
+  "targets": {
+    "covid-tracker-f870e": {
+      "hosting": {
+        "main": [
+          "covid19-pandemic-tracker"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
