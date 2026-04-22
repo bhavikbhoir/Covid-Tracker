@@ -14,4 +14,4 @@ Know and track the COVID-19 pandemic.
 3. Firebase
 
 ## Live Version
-http://www.covid19-tracker.s3-website.ap-south-1.amazonaws.com/
+[http://www.covid19-tracker.s3-website.ap-south-1.amazonaws.com/](https://covid19-pandemic-tracker.web.app/)
